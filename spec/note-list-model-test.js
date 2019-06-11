@@ -10,6 +10,6 @@ describe("NoteList", function(){
     var note = new Note("text");
     var noteList = new NoteList();
     noteList.addNote(note);
-    assert(noteList.list(), note)
+    assert(noteList.list().length, 1)
   })
 });

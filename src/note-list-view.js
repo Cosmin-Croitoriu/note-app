@@ -1,3 +1,4 @@
+(function(exports) {
 function NoteListView(noteList) {
   this.noteList = noteList;
 };
@@ -12,3 +13,5 @@ NoteListView.prototype.print = function() {
 
   return noteListViewString;
 };
+exports.NoteListView = NoteListView;
+})(this);
